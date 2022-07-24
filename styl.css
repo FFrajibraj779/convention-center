@@ -1,15 +1,54 @@
 body{
-  
-    font-family: 'Open Sans', sans-serif;
+     font-family: arial black;
     text-transform: capitalize;
-}
-
-.banner-head{
  
-     
+    text-decoration: none;
+}
+p a li{
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
 }
 
-#carouselExampleIndicators{
-    
-    
+.moment-desc{
+    position: relative;
 }
+ .alert{
+    position: absolute;
+    border-left: 4px solid blue;
+    box-shadow: 2px 2px 3px #ddd;
+    display: inline;
+     bottom: 90%;
+    right: -10;
+ }
+ .card-title h4{
+    font-size: 30px;
+    color: #999;
+ }
+ .card-desc h4{
+    color: #999;
+ }
+ .card-desc p{
+    color: #999;
+ }
+ .card-list ul li i{
+    background-color: #EDEBF8 ;
+    color: #5546C3;
+    padding: 4px;
+    border-radius: 50px;
+    margin-bottom: 4px;
+ }
+
+ .card-list ul li{
+     color: #999;
+     margin-bottom: 10px;
+
+ }
+ .choose-btn{
+    background-color: #FDF4FA;
+ }
+ .client-card{
+    box-shadow:2px 2px 18px #edecec;
+    border: none;
+ }
